@@ -1,0 +1,5 @@
+.vscode/
+*.pyc
+env/
+*.swp
+lambda.zip
