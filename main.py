@@ -17,7 +17,7 @@ APP_NAME = "wbkone4"
 eb = boto3.client("elasticbeanstalk", region_name="us-east-1")
 r53 = boto3.client('route53')
 staging_host = 'staging.wbk.one'
-TIMEOUT = 600
+TIMEOUT = 900
 
 
 def report_success(job_id, message):
