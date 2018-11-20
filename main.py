@@ -369,7 +369,7 @@ def deploy_application(app_name, s3bundle):
         ApplicationName=app_name,
         EnvironmentName=env_name,
         VersionLabel=app_version,
-        SolutionStackName="64bit Amazon Linux 2017.09 v2.8.4 running Multi-container Docker 17.09.1-ce (Generic)",
+        SolutionStackName="64bit Amazon Linux 2018.03 v2.11.5 running Multi-container Docker 18.06.1-ce (Generic)",
         Tier={
             'Type': 'Standard',
             'Name': 'WebServer'
